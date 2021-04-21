@@ -1,6 +1,6 @@
 .mainBox{
     height: 300px;
-    width: 500px;
+    width: 100%;
     background: url("images/pic1.jpg");
     background-size: cover;
     position: relative;
@@ -46,6 +46,52 @@
 .mainBox:hover .afterHoverBox{
     opacity: 1;
 }
+
+
+
+.slideUpperLeft{
+    left: 100%;
+    top: 100%;
+}
+.mainBox:hover .slideUpperLeft{
+    top: 0;
+    left: 0;
+}
+.slideUpperRight{
+    right: 100%;
+    top: 100%;
+}
+.mainBox:hover .slideUpperRight{
+    top: 0;
+    right: 0;
+}
+.slideLoweRight{
+    right: 100%;
+    bottom: 100%;
+}
+.mainBox:hover .slideLoweRight{
+    bottom: 0;
+    right: 0;
+}
+.slideLowerLeft{
+    left: 100%;
+    bottom: 100%;
+}
+.mainBox:hover .slideLowerLeft{
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 .contentBody{
     padding: 0 50px;
     text-align: center;
