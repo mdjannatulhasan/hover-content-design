@@ -192,3 +192,65 @@
     transform: translate(-110%,10%);
     opacity: 1;
 }
+
+
+.hoverDiv4 .afterHoverBox{
+    transition: 1s;
+    /* opacity: 1; */
+}
+.bbb1{
+    position: absolute;
+    /* top: 20%; */
+    /* left: 40%; */
+    -ms-transform: translate(10%,-210%);
+    transform: translate(10%,-210%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bbb1{
+    -ms-transform: translate(10%,-110%);
+    transform: translate(10%,-110%);
+    opacity: 1;
+}
+.bbb2{
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    -ms-transform: translate(-210%,-110%);
+    transform: translate(-210%,-110%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bbb2{
+    -ms-transform: translate(-110%,-110%);
+    transform: translate(-110%,-110%);
+    opacity: 1;
+}
+.bbb3{
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    -ms-transform: translate(110%,10%);
+    transform: translate(110%,10%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bbb3{
+    -ms-transform: translate(10%,10%);
+    transform: translate(10%,10%);
+    opacity: 1;
+}
+.bbb4{
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    -ms-transform: translate(-110%,110%);
+    transform: translate(-110%,110%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bbb4{
+    -ms-transform: translate(-110%,10%);
+    transform: translate(-110%,10%);
+    opacity: 1;
+}
