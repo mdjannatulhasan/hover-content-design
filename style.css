@@ -105,7 +105,7 @@
 
 .hoverDiv3 .afterHoverBox{
     transition: 0.5s;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .textRight{
@@ -125,6 +125,9 @@
     width: 100%;
     height: 100%;
     background: #fff;
+}
+.animatedIconBox:hover{
+    background: #ffffff88;
 }
 .aaa{
     position: absolute;
@@ -151,20 +154,41 @@
     position: absolute;
     /* top: 50%; */
     /* left: 50%; */
+    -ms-transform: translate(-210%,-210%);
+    transform: translate(-210%,-210%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bb2{
     -ms-transform: translate(-110%,-110%);
     transform: translate(-110%,-110%);
+    opacity: 1;
 }
 .bb3{
     position: absolute;
     /* top: 50%; */
     /* left: 50%; */
+    -ms-transform: translate(110%,110%);
+    transform: translate(110%,110%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bb3{
     -ms-transform: translate(10%,10%);
     transform: translate(10%,10%);
+    opacity: 1;
 }
 .bb4{
     position: absolute;
     /* top: 50%; */
     /* left: 50%; */
+    -ms-transform: translate(-210%,110%);
+    transform: translate(-210%,110%);
+    opacity: 0;
+    transition: 1s;
+}
+.mainBox:hover .bb4{
     -ms-transform: translate(-110%,10%);
     transform: translate(-110%,10%);
+    opacity: 1;
 }
