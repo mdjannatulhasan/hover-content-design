@@ -1,0 +1,61 @@
+.mainBox{
+    height: 300px;
+    width: 500px;
+    background: url("images/pic1.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.afterHoverBox{
+    height: 100%;
+    width: 100%;
+    background: rgba(68, 51, 51, 0.826);
+    opacity: 0;
+    position: absolute;
+    transition: 0.8s;
+}
+.slideLeft{
+    top: 0;
+    left: 100%;
+}
+.mainBox:hover .slideLeft{
+    left: 0;
+}
+.slideRight{
+    top: 0;
+    right: 100%;
+}
+.mainBox:hover .slideRight{
+    right: 0;
+}
+.slideUp{
+    top: 100%;
+    left: 0;
+}
+.mainBox:hover .slideUp{
+    top: 0;
+}
+.slideDown{
+    left: 0;
+    bottom: 100%;
+}
+.mainBox:hover .slideDown{
+    bottom: 0;
+}
+
+.mainBox:hover .afterHoverBox{
+    opacity: 1;
+}
+.contentBody{
+    padding: 0 50px;
+    text-align: center;
+}
+.d-flex{
+    height: 100% !important;
+}
+.btn1{
+    background: #ffffff;
+}
+.btn1:hover{
+    background: #ffffff88;
+}
