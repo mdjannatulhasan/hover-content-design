@@ -254,3 +254,19 @@
     transform: translate(-110%,10%);
     opacity: 1;
 }
+
+.testTracker{
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #888;
+}
+
+.slideLeft1{
+    top: 0; 
+    left: 100%; 
+}
+.mainBox:hover .slideLeft1{
+    /* left: 0; */
+}
